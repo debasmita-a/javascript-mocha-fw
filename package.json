@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
-  "type" : "module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^5.1.2",
-    "mocha": "^11.0.1"
+    "js-mocha-fw": "file:",
+    "mocha": "^11.0.1",
+    "nyc": "^17.1.0"
   }
 }

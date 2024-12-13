@@ -1,13 +1,14 @@
 import {expect} from 'chai';
-import {add,sub} from '../src/app.js';
+import {add1,sub1} from '../src/app.js';
+
 
 // BDD
 describe('Test suite 1', ()=>{
     it('test should return 5', ()=>{
-        expect(add(2,3)).to.be.equal(5);
-    })
+        expect(add1(2,3)).to.be.equal(5);
+    });
 
     it('test should return 18', ()=>{
-        expect(sub(30,12)).to.be.equal(18);
+        expect(sub1(30,12)).to.be.equal(18);
     });
 })
